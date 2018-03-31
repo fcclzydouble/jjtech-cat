@@ -25,8 +25,9 @@ public class DynamicDataSourceConfig {
 
 
 
-    @Bean
-    @Primary
+
+   @Bean
+   @Primary
     public DynamicDataSource dataSource(DataSource firstDataSource) {
         Map<String, DataSource> targetDataSources = new HashMap<>();
         targetDataSources.put(DataSourceNames.FIRST, firstDataSource);

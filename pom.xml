@@ -32,7 +32,7 @@
         <junit.version>4.12</junit.version>
         <jedis.version>2.9.0</jedis.version>
         <druid.version>1.1.6</druid.version>
-        <mybatisplus.version>2.1.6</mybatisplus.version>
+        <mybatisplus.version>2.1.9</mybatisplus.version>
         <mybatisplus.spring.boot.version>1.0.5</mybatisplus.spring.boot.version>
         <mysql.version>5.1.38</mysql.version>
         <commons.lang.version>2.6</commons.lang.version>
@@ -92,6 +92,12 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>sqljdbc4</artifactId>
+            <version>4.0</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
